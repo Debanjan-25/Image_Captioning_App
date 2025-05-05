@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from backend.caption_utils import generate_caption, overlay_caption
+from caption_utils import generate_caption, overlay_caption
 from PIL import Image
 import io
 import base64
